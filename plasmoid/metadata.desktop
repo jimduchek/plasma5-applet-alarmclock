@@ -1,0 +1,21 @@
+[Desktop Entry]
+Comment=Alarm Clock Applet
+Name=Alarm Clock Applet
+Icon=clock
+
+Type=Service
+
+X-Plasma-API=declarativeappletscript
+X-Plasma-MainScript=ui/main.qml
+X-Plasma-NotificationArea=true
+X-Plasma-DBusActivationService=org.mpris.MediaPlayer2.*
+
+X-KDE-PluginInfo-Author=Jim Duchek
+X-KDE-PluginInfo-Category=Utilities
+X-KDE-PluginInfo-Email=jim.duchek@gmail.com
+X-KDE-PluginInfo-License=GPLv3
+X-KDE-PluginInfo-Name=com.jrduchek.alarmclock
+X-KDE-PluginInfo-Version=0.1
+X-KDE-PluginInfo-Website=https://github.com/jimduchek/plasma5-applet-alarmclock
+
+X-KDE-ServiceTypes=Plasma/Applet
